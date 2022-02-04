@@ -4,10 +4,18 @@
     "type": "library",
     "keywords": ["ebay", "api", "sdk", "laravel", "laravel5", "php"],
     "license": "MIT",
+     "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sudiphed/ebay-sdk-php"
+        }
+    ],
     "require": {
-        "php": ">=5.5",
-        "dts/ebay-sdk-php": "~12.0|~13.0|~14.0|~15.0|~16.0|~17.0|~18.0"
+        "php": "^7.0|^8.0",
+        "dts/ebay-sdk-php": "dev-master"
     },
+
+
     "license": "MIT",
     "authors": [
         {
